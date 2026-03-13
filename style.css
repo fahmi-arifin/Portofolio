@@ -311,4 +311,24 @@ grid-template-columns:1fr;
 text-align:left;
 }
 
+
+}
+
+@media (max-width:480px){
+
+.ul-navbar{
+display:flex;
+justify-content:space-around;
+padding:0 10px;
+gap:6px;
+}
+
+.a-navbar{
+font-size:14px;
+}
+
+.li-navbar{
+padding:8px 6px;
+}
+
 }
