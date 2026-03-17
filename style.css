@@ -329,3 +329,23 @@ font-size:14px;
 }
 
 }
+
+/* NAVBAR MOBILE FIX */
+
+@media (max-width:768px){
+
+.ul-navbar{
+overflow-x:auto;
+white-space:nowrap;
+gap:12px;
+padding:0 10px;
+}
+
+.li-navbar{
+flex:0 0 auto;
+}
+
+.a-navbar{
+font-size:14px;
+}
+}
